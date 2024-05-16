@@ -8,7 +8,8 @@ namespace BookstoreAPI.Controllers
     [ApiController]
     public class ImageController : ControllerBase
     {
-        private const string _connectionStr = "DefaultEndpointsProtocol=https;AccountName=bookstoreapistorage;AccountKey=B8EeZkV5uDFtW/58/kUyQPBRQafi3u1I2vO28SrdIJNdwfx59XU0cYWRTFw7s3iAj1sLXUZHuuN6+AStiucsdg==;EndpointSuffix=core.windows.net";
+        private const string _connectionStr = "";
+        //private const string _connectionStr = "DefaultEndpointsProtocol=https;AccountName=bookstoreapistorage;AccountKey=B8EeZkV5uDFtW/58/kUyQPBRQafi3u1I2vO28SrdIJNdwfx59XU0cYWRTFw7s3iAj1sLXUZHuuN6+AStiucsdg==;EndpointSuffix=core.windows.net";
         private const string _containerName = "bookimages";
 
         private string _GenerateFileName(string fileName, string owner)
